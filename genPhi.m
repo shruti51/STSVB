@@ -10,8 +10,7 @@ function [Phi,flag] = genPhi(M,N,D)
 %       flag - if the genrated Phi matrix is full rank, then flag = 1;
 %              otherwise, flag= 0.
 %
-% Zhilin Zhang
-%e
+% For more details: https://sites.google.com/site/researchbyzhang/software
 
 if M>N,
     error('M should <= N\n');
