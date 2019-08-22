@@ -140,7 +140,7 @@ while (1)
         current_loc = segment(end);
     end
     
-    %%%%%%%%%%%%%%%%%%%%%%%%%% Signal Estimate %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%%%%% Signal Estimate %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     H = Phi' / (1/beta * eye(M) + Phi_PIinv_Phi);
     H_y = H * Y;
     H_Phi = H * Phi;
