@@ -12,7 +12,7 @@ function [Wx, Wy, r] = mycca(X,Y)
 % then M*L, Wy is N*L and r is L*1.
 %
 %
-% 2000 Magnus Borga, Linköpings universitet
+% 2000 Magnus Borga, LinkÃ¶pings universitet
 % This code for CCA was downloaded from 
 % https://www.mathworks.com/matlabcentral/filexchange/47496-l1mccaforssvep_demo-zip
 
@@ -38,7 +38,7 @@ r = sqrt(real(r));      % Canonical correlations
 V = fliplr(Wx);		% reverse order of eigenvectors
 r = flipud(diag(r));	% extract eigenvalues and reverse their order
 [r,I]= sort((real(r)));	% sort reversed eigenvalues in ascending order
-r = flipud(r);		% restore sorted eigenvalues into descending order
+r = flipud(r);	% restore sorted eigenvalues into descending order
 for j = 1:length(I)
   Wx(:,j) = V(:,I(j));  % sort reversed eigenvectors in ascending order
 end
