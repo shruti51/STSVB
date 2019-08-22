@@ -1,14 +1,14 @@
 clear
 % rng('default')
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Load signal package to call dct function. Comment this line if using MATLAB.
 pkg load signal
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Load data corresponding to Subject 27. For more details of dataset, please refer:
 % Y. Wang, X. Chen, X. Gao and S. Gao, "A Benchmark Dataset for SSVEP-Based 
-% Brain–Computer Interfaces," in IEEE Transactions on Neural Systems and 
+% Brainâ€“Computer Interfaces," in IEEE Transactions on Neural Systems and 
 % Rehabilitation Engineering, vol. 25, no. 10, pp. 1746-1752, Oct. 2017.
 s =27;
 load S27;
