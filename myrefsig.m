@@ -16,4 +16,4 @@ y_cos = bsxfun(fun_cos,i',t);
 y(i_2_',:) = y_sin;
 y(i_2',:) = y_cos;
 
-end
+end 
