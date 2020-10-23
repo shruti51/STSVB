@@ -1,5 +1,5 @@
 # STSVB
-Spatio-Temporal Sparse Variational Bayes Framework
+Spatio-Temporal Sparse Variational Bayes Framework: Published in IEEE Transactions on Neural Networks and Learning Systems (https://ieeexplore.ieee.org/document/9222564)
 
 STSVB recovers block sparse signal using matrix variate gaussian scale mixture parameterized by some scalar random parameters and 
 deterministic matrices to model spatio-temporal correlation.
@@ -15,4 +15,3 @@ Dataset is freely available on http://bci.med.tsinghua.edu.cn/download.html.
 
 - Results.mat: File containing details of the results corresponding to Subject 27.
 
-Data
