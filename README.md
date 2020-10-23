@@ -1,5 +1,8 @@
 # STSVB
-Block Sparse Variational Bayes Regression Using Matrix Variate Distributions With Application to SSVEP Detection, published in IEEE Transactions on Neural Networks and Learning Systems (https://ieeexplore.ieee.org/document/9222564)
+
+MATLAB implementation of Spatio-Temporal Sparse Variational Bayes Framework. For more details, please refer to the paper: 
+
+Shruti Sharma, Santanu Chaudhury and Jayadeva, "Block Sparse Variational Bayes Regression Using Matrix Variate Distributions With Application to SSVEP Detection," in IEEE Transactions on Neural Networks and Learning Systems, doi: 10.1109/TNNLS.2020.3027773. (https://ieeexplore.ieee.org/document/9222564)
 
 STSVB recovers block sparse signal using matrix variate gaussian scale mixture parameterized by some scalar random parameters and 
 deterministic matrices to model spatio-temporal correlation.
