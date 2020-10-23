@@ -1,5 +1,5 @@
 # STSVB
-Spatio-Temporal Sparse Variational Bayes Framework: Published in IEEE Transactions on Neural Networks and Learning Systems (https://ieeexplore.ieee.org/document/9222564)
+Block Sparse Variational Bayes Regression Using Matrix Variate Distributions With Application to SSVEP Detection, published in IEEE Transactions on Neural Networks and Learning Systems (https://ieeexplore.ieee.org/document/9222564)
 
 STSVB recovers block sparse signal using matrix variate gaussian scale mixture parameterized by some scalar random parameters and 
 deterministic matrices to model spatio-temporal correlation.
